@@ -1,5 +1,5 @@
 // console.log("unwanted buggy code")
-console.log("Hello world")
+// console.log("Hello world")
 /* et color = "red"
 console.log("color", color) */
 /* let fullname = "Shubangand"
@@ -11,7 +11,7 @@ fullname = "Hari Kumar"
 console.log(fullname);
 fullname = "Hari Bahadur"
 console.log(fullname); */
-let firstName = "Hari"
+/* let firstName = "Hari"
 let middleName = "Kumar"
 middleName = "Bahadur"
 lastName = "oli"
@@ -47,6 +47,48 @@ let person ={
     age: "22",
     website: "john@doe.com"
 
-    
+     */
+// }
+// console.log(`full name is ${person.first_name} ${person.last_name}`);
+/* 
+let monitor = {
+    model: "samsung",
+    hertz: 120
 }
-console.log(`full name is ${person.first_name} ${person.last_name}`);
+console.log (monitor);
+ let obj ={
+    Name: "Ram",
+    name: "Hari",
+    name: "shyam"
+    
+ }
+
+ console.log(obj.name);
+ console.log(obj.Name);
+ 
+ let person ={
+    firstName: "Hari",
+    lastName: "Kumar",
+    contact: {
+        ncell: 9823014272
+    }
+
+ }
+ person.lastName ="Bahadur"
+ person.country = "Nepal"
+ person.contact.NTC = 9768383479
+ person.address ={
+    street: "putalisadak",
+    ward: "16"
+ }
+ console.log(person) */
+ let person = {
+    first_name: "john",
+    last_name: "doe",
+    age: 23,
+    website: "https://www.johndoe.com"
+ }
+person.fieldToRetrive = person.website + " " + person.first_name
+ console.log(person.fieldToRetrive)
+
+ 
